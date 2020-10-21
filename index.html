@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Make me into a grid!</title>
+        <title>My Customized Flexbox</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,29 +12,41 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <link href='http://fonts.googleapis.com/css?family=Lora:700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
     </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+    <body background="img/redabstract.jpg">
 
-        <section class="wrapper">
-            <div class="div-1">
-                <p><span>I'm born and raised in NJ, USA.</span>
-                    I love to travel, mostly in the US. There are so many natural wonders to explore.</p>
-            </div>
-            <div class="div-2">
-                <p><span>My interests:</span>
-                Tech - no Windows, Apple only please!,
-                Cooking - we all have to eat, why not make it yourself?,
-                Hockey - read on for more on that...</p>
-            </div>
-            <div class="div-3">
-                <p><span>Highlight of my past career:</span> touching the Stanley Cup. Not once, but twice!</p>
-            </div>
+      <section class="flex-container">
+        <header>
+          <h1>Hello. I'm Clara.</h1>
+        </header>
+        <main>
+        <p>I am a <span>Responsive Developer</span>who enjoys visual storytelling and the best user experience.
+          When I'm not practicing coding, looking for work or getting lost in the rabbit hole of LinkedIn,
+           I can be found at the gym, in the kitchen cooking, or outside in the garden.</p>
+         </main>
+
+          <div id="div-1" class="flex-items">
+              <p><span>I'm born and raised in NJ, USA.</span>
+                  I love to travel, mostly in the US. There are so many natural wonders to explore.</p>
+          </div>
+          <div id="div-2" class="flex-items">
+              <p><span>My interests:</span>
+              Tech - no Windows, Apple only please!,
+              Cooking - we all have to eat, why not make it yourself?,
+              Hockey - read on for more on that...</p>
+          </div>
+          <div id="div-3" class="flex-items">
+              <p><span>Highlight of my past career:</span> touching the Stanley Cup. Not once, but twice!</p>
+          </div>
+          <footer>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-linkedin"></i>
+              <i class="fab fa-pinterest"></i>
+          </footer>
         </section>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
